@@ -1,0 +1,22 @@
+public class onedArray{
+    public static void main(String[] args) {
+    int i;
+    int [] A= {10, 20, 30, 40, 50};
+    int [] B= {34,  67, 12, 89, 12};
+    
+    int [] C= new int [5];
+    
+    for (i=0; i<5; i++ )
+        {
+           C[i]= A[i]+B[i]; 
+        }
+     
+    System.out.print("The contents of array C are: "); 
+    for (i=0; i<5; i++)
+        
+        {
+            System.out.print (C[i] + " ");
+        }
+    
+    }
+}
