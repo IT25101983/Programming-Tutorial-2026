@@ -1,0 +1,32 @@
+class Demo {
+    public static void main(String[] args) {
+      EvenOddNumber obj= new EvenOddNumber();
+      
+      int num1= 10, num2=7;
+      
+      boolean result1=obj.findEvenOrOdd(num1);
+      
+      boolean result2=obj.findEvenOrOdd(num2);
+      
+      if (result1)
+      {
+          System.out.println(num1 +" "+ "is even");
+      }
+      
+      else 
+      {
+         System.out.println(num1 +" "+ "is odd") ;
+      }
+      
+     if (result2)
+      {
+          System.out.println(num2 +" "+ "is even");
+      }
+      
+      else 
+      {
+         System.out.println(num2 +" "+ "is odd") ;
+      } 
+      
+    }
+}
